@@ -53,7 +53,7 @@ const playGame = () => {
     let keepPlaying = true;
 
     while(keepPlaying) {
-        console.log(c.bgMagenta(`YOU'RE ABOUT TO PLAY ROCK, PAPER, SCISSORS ...`));
+        console.log(c.bgRedBright(`YOU'RE ABOUT TO PLAY ROCK, PAPER, SCISSORS ...`));
 
         const userInput = getUserInput();
         const computerInput = getComputerChoice();
@@ -68,7 +68,7 @@ const playGame = () => {
         keepPlaying = playOver();
     }
 
-    console.log('You have left the game, goodbye.')
+    console.log(c.bgWhiteBright('You have left the game, goodbye.'))
 }
 
 playGame();

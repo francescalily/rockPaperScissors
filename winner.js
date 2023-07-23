@@ -22,6 +22,7 @@ module.exports = {
     winner
 };
 
+//initial first code
 // const winner = (getUserInput, computerChoice) => {
 //     let userCount = 0;
 //     let computerCount = 0;
@@ -57,4 +58,4 @@ module.exports = {
 //     computerCount++;
 //     return `The computer won! The computer now has ${computerCount} points`;
 // }
-// }
+// } 
